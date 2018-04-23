@@ -14,37 +14,11 @@
   <app-root>Loading...</app-root>
   
   <div id= "Content">
-	
+	<p>
+	dddddd
+	</p>
   </div>
-	<script>
-		var osc = new Tone.Oscillator({
-			"frequency" : 440,
-			"volume" : -10
-		}).toMaster();
-		
-		Interface.Dragger({
-			tone : osc,
-			x : {
-				param : "frequency",
-				min : 60,
-				max : 2000,
-				exp : 2
-			},
-			y : {
-				param : "volume",
-				min : -40,
-				max : 0
-			},
-			start : function(){
-				osc.start();
-				Tone.Master.volume.rampTo(0, 0.05);
-			},
-			end : function(){
-				//so it doesn't click
-				Tone.Master.volume.rampTo(-Infinity, 0.05);
-			}
-		});
-	</script>
 	
-  <script type="text/javascript" src="inline.4f923d1fa9ba308f4a35.bundle.js"></script><script type="text/javascript" src="polyfills.efa46c2bc56ae06f11da.bundle.js"></script><script type="text/javascript" src="scripts.5b2ffcde9bb9c9102caa.bundle.js"></script><script type="text/javascript" src="vendor.04ed42ada62726377a2b.bundle.js"></script><script type="text/javascript" src="main.cfa88f11f99b6a27b0b3.bundle.js"></script></body>
+	
+  <script type="text/javascript" src="inline.ab25007e26b8256e71d8.bundle.js"></script><script type="text/javascript" src="polyfills.d2ac2eb603cd3d6005d6.bundle.js"></script><script type="text/javascript" src="vendor.d68e34d703e870550777.bundle.js"></script><script type="text/javascript" src="main.1d1d9830b89e3f902612.bundle.js"></script></body>
 </html>
