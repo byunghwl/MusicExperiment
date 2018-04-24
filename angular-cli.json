@@ -22,6 +22,12 @@
         "styles.css"
       ],
       "scripts": [
+		"../node_modules/tone/build/Tone.js",
+	    "external_js_lib/jquery.min.js",
+		"external_js_lib/draggabilly.js",
+		"external_js_lib/StartAudioContext.js",
+		"external_js_lib/Interface.js",
+		"external_js_lib/Keyboard.js"
 		
 	  ],
       "environmentSource": "environments/environment.ts",
