@@ -22,5 +22,4 @@ export class HeroService {
   }
 
   constructor(private messageService: MessageService) {}
-
 }

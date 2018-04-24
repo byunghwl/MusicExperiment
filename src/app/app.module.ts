@@ -11,6 +11,8 @@ import { HerosComponent } from './heros/heros.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroService} from './hero.service';
 import { MessageService } from './message.service';
+import { ToneService } from './tone.service';
+
 
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -33,6 +35,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   providers: [
     HeroService,
     MessageService,
+    ToneService,
   ],
   bootstrap: [AppComponent]
 })
